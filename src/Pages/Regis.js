@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class App extends Component {
+class Regis extends Component {
   render () {
     return (
       <div>
-        {this.props.children}
+        ss
       </div>
     )
   }
 }
 
-export default App
+export default Regis

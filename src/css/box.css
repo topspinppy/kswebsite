@@ -1,0 +1,56 @@
+const Box = styled.div`
+  font-family: 'Kanit', sans-serif;
+  .Sectionone {
+    height:100vh;
+    background: -webkit-linear-gradient(top, rgba(255,0,132,1) 0%, rgba(255,140,0,1) 100%);
+    .logo {
+      width:170px;
+      bottom:5px;
+      margin-top:64px;
+      max-width: 100%;
+    }
+    .slogan {
+      width:182vh;
+      margin-top:30px;
+      max-width: 100%;
+      height: auto;
+    }
+    .points {
+      width:31px;
+    }
+  }
+  .Sectiontwo {
+    height:100vh;
+    background: #ff8b00;
+  }
+  .Sectiontwos {
+    height:100vh;
+    background: #ff9f2d;
+    .leftside {
+      position: absolute;
+      top: 227%;
+      left: 12%;
+    }
+    .Rocket {
+      font-size: 20rem;
+    }
+  }
+  .Sectionthree {
+    height:80vh;
+    background: #ff8b00;
+    .boxcenter {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      h2 {
+        margin-left:28%;
+        margin-bottom:3%;
+        text-align: center;
+      }
+    }
+  }
+  .Sectionfour {
+    height:20vh;
+    background: #fc6400;
+  }
+}`
