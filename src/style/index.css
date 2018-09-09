@@ -1,0 +1,14 @@
+@import url('http://cdn.sendit.asia/fonts/noto-sans-thai/400;600.css');
+
+body {
+  margin: 0;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 0, 132, 1) 0%,
+    rgba(255, 140, 0, 1) 100%
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
