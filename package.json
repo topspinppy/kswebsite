@@ -1,5 +1,5 @@
 {
-  "name": "smart-react-boilerplate",
+  "name": "kswebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,8 +39,6 @@
     "graphql-tools": "^3.0.2",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
-    "mobx": "^5.0.0",
-    "mobx-react": "^5.2.0",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
@@ -83,7 +81,6 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
     "precommit": "pretty-quick --staged",
     "clean": "rm -rf build",
     "presetup": "npm i chalk shelljs",
