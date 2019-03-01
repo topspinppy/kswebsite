@@ -54,23 +54,23 @@ export default class NavBar extends Component {
     })
   }
 
-  // toggleNavbar() {
-  //   this.setState({
-  //     collapsed: !this.state.collapsed,
-  //   })
-  // }
   componentDidMount = () => {
-    document && document.addEventListener("scroll", (e) => {
-      if (window && window.scrollY > 30) {
-        this.setState({
-          color: "#ff7c00"
-        })
-      } else {
-        this.setState({
-          color: "transparent"
-        })
-      }
-    }, true)
+    document &&
+      document.addEventListener(
+        'scroll',
+        e => {
+          if (window && window.scrollY > 30) {
+            this.setState({
+              color: '#ff7c00',
+            })
+          } else {
+            this.setState({
+              color: 'transparent',
+            })
+          }
+        },
+        true
+      )
   }
 
   render() {

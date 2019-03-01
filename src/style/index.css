@@ -1,4 +1,4 @@
-@import url('http://cdn.sendit.asia/fonts/noto-sans-thai/400;600.css');
+@import url('https://fonts.googleapis.com/css?family=Kanit');
 
 body {
   margin: 0;
@@ -10,5 +10,5 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
-  font-family: 'Noto Sans Thai', sans-serif;
+  font-family: 'Kanit', sans-serif;
 }

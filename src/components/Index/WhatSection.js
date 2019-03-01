@@ -18,9 +18,7 @@ const Headers = styled.h1`
   }
 `
 
-const WhatContainer = styled(Container)`
-  background-color: #ff9d00;
-`
+const WhatContainer = styled(Container)``
 const WhatCol = styled(Col)`
   @media (max-width: 1024px) {
     padding: 2.5em 2em !important;
@@ -37,9 +35,10 @@ const WhatSection = () => (
             <WhatCol lg="12">
               <br />
               <h3>
-                KS SPACE คือพื้นที่ที่จะให้ทุกคนมาตั้งวงรวมกันเม้าท์มอยหอยสังข์ อะไรก็ได้ 
-                ซักอย่างนึง ไม่ว่าจะเป็นเรื่องที่เราสนใจ หรือเป็นเรื่องที่อยากระบาย เราเม้าท์ได้หมดทุกเรื่อง
-                อย่าลืมเตรียมยาอมมานะ :P เดิ๋ยวคอจะอักเสบ เพราะเราจะเม้าท์หนักมากจริงๆ
+                เป็นงานสัมมนา Open Session
+                เปิดให้ผู้ที่สนใจแบ่งปันความรู้และประสบการณ์ดีๆ
+                โดยการเสนอหัวข้อที่ต้องการพูดเป็นเรื่องอะไรก็ได้ ไม่จำกัดหัวข้อ
+                ไม่จำเป็นต้องเป็นเรื่องเทคโนโลยี ก็พูดได้ไม่จำกัด
               </h3>
             </WhatCol>
           </Col>
